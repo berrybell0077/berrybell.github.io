@@ -1,0 +1,33 @@
+body {
+    background-color: #f5f5f5; /* 背景色 */
+    font-family: "Microsoft Yahei", sans-serif; /* 字体 */
+    text-align: center; /* 文字居中 */
+    padding: 50px;
+}
+.container {
+    background-color: white; /* 容器背景色 */
+    padding: 30px;
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* 阴影 */
+    max-width: 500px;
+    margin: 0 auto; /* 容器居中 */
+}
+.my-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* 圆形图片 */
+    object-fit: cover;
+    margin: 20px 0;
+}
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* 按钮颜色 */
+    color: white; /* 文字颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    border-radius: 5px;
+}
+.links a:hover {
+    background-color: #0056b3; /* 鼠标 hover 时变色 */
+}
